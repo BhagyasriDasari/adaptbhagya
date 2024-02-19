@@ -1,0 +1,33 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background: white;
+    padding: 10px;
+    width: 20%;
+    margin: 10px 0 10px 0;
+    border: 0;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 2px;
+  }
+  .tabs.active {
+    background: #2196f3;
+    color: white;
+  }
+
+  
+  /* Style the tab with a medium font size and a darker blue border */
+  .tab {
+    font-size: 18px;
+    border: 1px solid #90caf9;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the active tab with a darker blue background and a white text */
+  .tab.active {
+    background: #2196f3;
+    color: white;
+  }
